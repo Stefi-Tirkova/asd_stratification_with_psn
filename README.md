@@ -28,7 +28,7 @@ Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition that po
   - `spectral_clustering_weighted_hamming_sim_results_plots.ipynb`: Plots some of the results for the weighted Hamming similarity across different sample sizes of the PSN.
 
 - `louvain_community_detection/`
-  - `louvain_sampling_knn.ipynb`: Performing Louvain clustering on the PSN sparsified using the K-nearest neighbors (KNN) algorithm for all individuals. This includes steps for building the PSN, cleaning the network, and executing Louvain clustering.
+  - `louvain_knn.ipynb`: Performing Louvain clustering on the PSN sparsified using the K-nearest neighbors (KNN) algorithm for all individuals. This includes steps for building the PSN, cleaning the network, and executing Louvain clustering.
   - `louvain_knn_analyse_results.ipynb`: Analyse and visualise the results generated from the file above, including loading the results, calculating metrics, and plotting the clusters.
   - `asd_only_louvain_sampling_knn.ipynb`: Performing Louvain clustering on the PSN sparsified using the K-nearest neighbors (KNN) algorithm for ASD individuals. This includes steps for building the PSN, cleaning the network, and executing Louvain clustering.
   - `asd_only_louvain_knn_analyse_results.ipynb`: Analyse and visualise the results generated from the file above, including loading the results, calculating metrics, and plotting the clusters.
